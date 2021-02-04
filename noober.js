@@ -8,7 +8,6 @@ async function pageLoaded() {
   // 🔥 start here: write code to loop through the rides
  
  let rides = json
-
  for(let i=0;i<rides.length;i++)  {
   ride = rides[i]
   numRiders = ride.length
