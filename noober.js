@@ -12,7 +12,7 @@ async function pageLoaded() {
   ride = rides[i]
   numRiders = ride.length
     for (let j =0; j< numRiders;j++) {
-      if (numRiders > 1 || ride[0].numberOfPassengers == 1) {levelOfService = 'Noober Pool'}   
+      if (numRiders > 1) {levelOfService = 'Noober Pool'}   
       else if (ride[0].purpleRequested == true) {levelOfService = 'Noober Purple'}   
       else if (ride[0].numberOfPassengers > 3) {levelOfService = 'Noober XL'}   
       else {levelOfService = 'Noober X'}
